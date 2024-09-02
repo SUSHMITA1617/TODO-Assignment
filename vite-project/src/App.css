@@ -1,0 +1,42 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.create_form input {
+
+width: 300px;
+padding: 10px;
+border-bottom: 2px solid;
+
+outline: none;
+}
+.create_form button {
+  padding: 10px;
+  background-color: rgb(38, 18, 99);
+  color:white;
+  cursor: pointer;
+}
+
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  justify-content: space-between;
+  background-color: rgb(38, 18, 99);
+  color: white;
+  height: 35px;
+  padding: 2px 1px 2px 5px;
+
+  margin-top: 2px;
+  
+  }
+
+
+  .task div .icon{
+  
+    cursor: pointer;
+    margin-right: 1%;
+  }
